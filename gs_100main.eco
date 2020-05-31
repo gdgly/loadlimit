@@ -1,0 +1,150 @@
+*PADS-ECO-V10.0-METRIC*
+
+*REMARK* -- gs_100main.pcb -- Sat May 30 19:44:11 2020
+
+
+*DELPIN*
+J1.1    +5V
+J1.2    +5V
+J1.3    $$$24580
+EM1.1    $$$24580
+J1.4    $$$24578
+EM2.1    $$$24578
+J1.5    GND
+J1.6    GND
+
+*DELPART*
+J1 5045_6P
+
+*DELPIN*
+J7.1    +5V
+J7.2    +5V
+J7.3    TX
+J7.4    -TX
+J7.5    GND
+J7.6    GND
+
+*DELPART*
+J7 5045_6P
+
+*DELPIN*
+J11.1    +5V
+J11.2    RESET
+J11.3    SCK(PB1)
+U4.3    PE1
+J11.4    PE1
+U4.2    PE0
+J11.5    PE0
+J11.6    GND
+
+*DELPART*
+J11 5045_6P
+*END*
+*PADS-ECO-V10.0-METRIC*
+
+*REMARK* -- gs_100main.pcb -- Sat May 30 19:50:46 2020
+
+*END*
+*PADS-ECO-V10.0-METRIC*
+
+*REMARK* -- gs_100main.pcb -- Sat May 30 20:17:45 2020
+
+
+*DELPIN*
+U5.12    $$$16146
+U22.1    $$$16146
+U22.2    SCK(PB1)
+U22.3    MOSI
+U22.4    MISO
+U22.5    GND
+U22.6    GND
+U22.8    +5V
+
+*DELPART*
+U22 93C46
+
+*DELPIN*
+D8.K    -TX
+D8.A    GND
+
+*DELPART*
+D8 1P5KE8V
+
+*DELPIN*
+D7.K    TX
+D7.A    GND
+
+*DELPART*
+D7 1P5KE8V
+*END*
+*PADS-ECO-V10.0-METRIC*
+
+*REMARK* -- gs_100main.pcb -- Sat May 30 20:33:18 2020
+
+*END*
+*PADS-ECO-V10.0-METRIC*
+
+*REMARK* -- gs_100main.pcb -- Sat May 30 20:33:41 2020
+
+
+*DELPIN*
+D5.K    $$$3699
+D3.K    $$$3699
+D3.A    EARTH
+
+*DELPART*
+D3 ZENER-DIODE
+
+*DELPIN*
+D4.K    $$$3676
+D2.K    $$$3676
+D4.A    EARTH
+
+*DELPART*
+D4 ZENER-DIODE
+
+*DELPIN*
+D5.A    $$$3668
+
+*DELPART*
+D5 ZENER-DIODE
+
+*DELPIN*
+D2.A    $$$3665
+
+*DELPART*
+D2 ZENER-DIODE
+
+*DELPIN*
+L1.1    $$$3665
+L1.2    -SIG
+J9.4    -SIG
+
+*DELPART*
+L1 IND-MOLDED
+*END*
+*PADS-ECO-V10.0-METRIC*
+
+*REMARK* -- gs_100main.pcb -- Sat May 30 20:46:34 2020
+
+
+*DELPIN*
+L2.1    $$$3668
+L2.2    +SIG
+J9.3    +SIG
+
+*DELPART*
+L2 IND-MOLDED
+*END*
+*PADS-ECO-V10.0-METRIC*
+
+*REMARK* -- gs_100main.pcb -- Sun May 31 14:18:05 2020
+
+
+*DELPIN*
+C10.1    +12V
+C10.2    $$$9970
+
+*DELPART*
+C10 CAPP
+*END*
