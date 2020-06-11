@@ -1,0 +1,84 @@
+*
+*
+G04 PADS VX.2.4 Build Number: 11282995 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "gs100Terminal.pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD027R,0.17323X0.3937*%
+%ADD035C,0.01*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name gs100Terminal.pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name gs100Terminal.pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name gs100Terminal.pcb - circuitry*
+%LPD*%
+*
+G54D10*
+G54D27*
+G01X256299Y579921D03*
+X231890D03*
+Y536220D03*
+X256299D03*
+G54D35*
+X100000Y100000D02*
+X454331D01*
+Y690551*
+X100000*
+Y100000*
+X0Y0D02*
+M02*
